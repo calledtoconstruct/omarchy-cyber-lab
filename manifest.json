@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "calledtoconstruct.cyber-lab",
+  "name": "Cyber lab",
+  "version": "1.0.0",
+  "author": "calledtoconstruct",
+  "description": "Bar badge for a running capture and for whether the newest lab scope names who authorized it",
+  "license": "MIT",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "LabWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Cyber lab",
+    "description": "Capture and scope badge",
+    "category": "Plugin",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
